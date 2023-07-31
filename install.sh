@@ -3,7 +3,6 @@ termux-setup-storage
 
 apt update
 apt install -y git zsh
-git clone https://github.com/marhaendev/termux-themes.git "$HOME/termux-themes" --depth 1
 
 mv "$HOME/.termux" "$HOME/.termux.bak.$(date +%Y.%m.%d-%H:%M:%S)"
 cp -R "$HOME/termux-themes/.termux" "$HOME/.termux"
